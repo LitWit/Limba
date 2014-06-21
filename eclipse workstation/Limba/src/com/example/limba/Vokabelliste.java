@@ -20,8 +20,8 @@ public class Vokabelliste {
 	public Vokabel getBegin() {
 		return begin;
 	}
-	
-	public int size(){
+
+	public int size() {
 		return size;
 	}
 }

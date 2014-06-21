@@ -6,14 +6,14 @@ import android.graphics.Picture;
 
 public class Vokabel {
 	private String deutscheVokabel;
-	private Object deutscheAussprache; //TODO Object ersetzen
+	private Object deutscheAussprache; // TODO Object ersetzen
 	private String persischeVokabel;
-	private Object persischeAussprache; //TODO Object ersetzen
+	private Object persischeAussprache; // TODO Object ersetzen
 	private Vokabel next;
 	private Picture picture;
-	private Date date; //Erstellungsdatum
+	private Date date; // Erstellungsdatum
 
-	//Konstruktor
+	// Konstruktor
 	public Vokabel() {
 		deutscheVokabel = "";
 		deutscheAussprache = "";
@@ -40,16 +40,16 @@ public class Vokabel {
 	public Object getPersischeAussprache() {
 		return persischeAussprache;
 	}
-	
-	public Vokabel getNext(){
+
+	public Vokabel getNext() {
 		return next;
 	}
-	
-	public Picture getPicture(){
+
+	public Picture getPicture() {
 		return picture;
 	}
-	
-	public Date getDate(){
+
+	public Date getDate() {
 		return date;
 	}
 
@@ -69,12 +69,12 @@ public class Vokabel {
 	public void setPersischeAussprache(String persischeAussprache) {
 		this.persischeAussprache = persischeAussprache;
 	}
-	
-	public void setNext(Vokabel next){
+
+	public void setNext(Vokabel next) {
 		this.next = next;
 	}
-	
-	public void setPicture(Picture picture){
+
+	public void setPicture(Picture picture) {
 		this.picture = picture;
 	}
 }
