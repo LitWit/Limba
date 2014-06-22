@@ -83,9 +83,8 @@ public class MainActivity extends Activity {
 	}
 
 	protected void startWortHinzufuegenActivity() {
-		// TODO
-		// Intent intent = new Intent(this, WortHinzufuegenActivity.class);
-		// this.startActivity(intent);
+		Intent intent = new Intent(this, WortHinzufuegenActivity.class);
+		this.startActivity(intent);
 	}
 
 	@Override

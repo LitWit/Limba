@@ -31,6 +31,10 @@
             android:name="com.example.limba.DetailActivity"
             android:label="Detail" >
         </activity>
+        <activity
+            android:name="com.example.limba.WortHinzufuegenActivity"
+            android:label="Wort hinzufügen" >
+        </activity>
     </application>
 
 </manifest>

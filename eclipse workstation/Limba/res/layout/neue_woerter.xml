@@ -6,8 +6,9 @@
 
     <ListView
         android:id="@+id/neue_woerter_liste"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent" >
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FABF30" >
     </ListView>
 
 </LinearLayout>

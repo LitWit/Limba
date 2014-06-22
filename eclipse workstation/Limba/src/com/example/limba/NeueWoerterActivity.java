@@ -32,17 +32,10 @@ public class NeueWoerterActivity extends Activity {
 		Vokabel nextVokabel = new Vokabel();
 		nextVokabel.setNext(InternData.liste.getBegin());
 
-		for (int i = 0; i < 10; i++)
-		{
-			valueList.add("value"+i);
-			Vokabel vokabel = new Vokabel();
-			vokabel.setDeutscheVokabel("value"+i);
-			InternData.liste.add(vokabel);
-		}/*
 		while (nextVokabel.getNext() != null) {
-			valueList.add(nextVokabel.getNext().getDeutscheVokabel());
+			valueList.add(nextVokabel.getNext().getPersischeVokabel());
 			nextVokabel.setNext(nextVokabel.getNext().getNext());
-		}*/
+		}
 
 		ListAdapter adapter = new ArrayAdapter<String>(getApplicationContext(),
 				android.R.layout.simple_list_item_1, valueList);

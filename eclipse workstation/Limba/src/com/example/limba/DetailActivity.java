@@ -14,8 +14,7 @@ public class DetailActivity extends Activity {
 
 		Intent intent = getIntent();
 
-		int position = InternData.liste.size()
-				- (int) intent.getIntExtra("position", 0) - 1;
+		int position = (int) intent.getIntExtra("position", 0);
 
 		Vokabel vokabel = new Vokabel();
 		vokabel.setNext(InternData.liste.getBegin());
@@ -23,7 +22,9 @@ public class DetailActivity extends Activity {
 			vokabel.setNext(vokabel.getNext().getNext());
 		}
 
-		((TextView) (findViewById(R.id.textView))).setText("Es wurde "
-				+ vokabel.getNext().getDeutscheVokabel() + " gewählt!");
+		((TextView) (findViewById(R.id.deutschesTextfeld))).setText(vokabel
+				.getNext().getDeutscheVokabel());
+		((TextView) (findViewById(R.id.persischesTextfeld))).setText(vokabel
+				.getNext().getPersischeVokabel());
 	}
 }
