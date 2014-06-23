@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#88CFC2"
     android:orientation="vertical" >
 
     <Button
@@ -12,6 +13,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="27dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Bild" />
 
     <Button
@@ -22,6 +25,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/bildButton"
         android:layout_marginRight="28dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Profilbild" />
 
     <EditText
@@ -54,6 +59,8 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_alignRight="@+id/button3"
         android:layout_alignTop="@+id/editText2"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="M" />
 
     <Button
@@ -63,6 +70,8 @@
         android:layout_alignBottom="@+id/button3"
         android:layout_alignRight="@+id/button1"
         android:layout_alignTop="@+id/button3"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="L" />
 
     <Button
@@ -72,6 +81,8 @@
         android:layout_alignBottom="@+id/persischesTextfeld"
         android:layout_alignLeft="@+id/button1"
         android:layout_alignTop="@+id/persischesTextfeld"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="M" />
 
     <Button
@@ -82,6 +93,8 @@
         android:layout_alignLeft="@+id/button5"
         android:layout_alignRight="@+id/button5"
         android:layout_alignTop="@+id/button4"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="L" />
 
     <Button
@@ -91,6 +104,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="48dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Wort hinzufügen" />
 
 </RelativeLayout>
