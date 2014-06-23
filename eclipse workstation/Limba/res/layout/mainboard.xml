@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#88CFC2"
     tools:context=".MainActivity" >
 
     <TextView
@@ -16,6 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:text="Limba"
+        android:textColor="#FF0000"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -25,6 +27,8 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/Limba"
         android:layout_marginTop="22dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Neue Wörter" />
 
     <Button
@@ -34,6 +38,8 @@
         android:layout_alignBaseline="@+id/neue_woerter_button"
         android:layout_alignBottom="@+id/neue_woerter_button"
         android:layout_alignParentRight="true"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Vokabelliste" />
 
     <Button
@@ -43,6 +49,8 @@
         android:layout_alignLeft="@+id/neue_woerter_button"
         android:layout_below="@+id/neue_woerter_button"
         android:layout_marginTop="35dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Bewerten" />
 
     <Button
@@ -52,6 +60,8 @@
         android:layout_alignBaseline="@+id/bewerten_button"
         android:layout_alignBottom="@+id/bewerten_button"
         android:layout_alignRight="@+id/vokabelliste_button"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Wort hinzufügen" />
 
 </RelativeLayout>

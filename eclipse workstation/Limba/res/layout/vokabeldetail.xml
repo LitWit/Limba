@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#88CFC2"
     android:orientation="vertical" >
 
     <EditText
@@ -23,6 +24,8 @@
         android:layout_marginLeft="15dp"
         android:height="60dp"
         android:text="Zur Vokabelliste hinzufügen"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:width="160dp" />
 
     <Button
@@ -33,6 +36,8 @@
         android:layout_below="@+id/deutschesTextfeld"
         android:layout_marginRight="18dp"
         android:layout_marginTop="36dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Trainieren" />
 
     <Button
@@ -43,6 +48,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/persischesTextfeld"
         android:layout_marginTop="26dp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="Bild" />
 
     <EditText
@@ -64,6 +71,8 @@
         android:layout_alignBottom="@+id/bildButton"
         android:layout_alignRight="@+id/trainierenButton"
         android:layout_alignTop="@+id/bildButton"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="ProfilBild" />
 
     <Button
@@ -73,6 +82,8 @@
         android:layout_alignBottom="@+id/persischesTextfeld"
         android:layout_alignLeft="@+id/profilBildButton"
         android:layout_alignTop="@+id/persischesTextfeld"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="M" />
 
     <Button
@@ -82,6 +93,8 @@
         android:layout_alignBottom="@+id/button1"
         android:layout_alignRight="@+id/profilBildButton"
         android:layout_alignTop="@+id/button1"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="L" />
 
     <Button
@@ -92,6 +105,8 @@
         android:layout_alignLeft="@+id/button1"
         android:layout_alignRight="@+id/button1"
         android:layout_alignTop="@+id/deutschesTextfeld"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="M" />
 
     <Button
@@ -102,6 +117,8 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignRight="@+id/button2"
         android:layout_alignTop="@+id/button3"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
         android:text="L" />
 
 </RelativeLayout>
